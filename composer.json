@@ -1,0 +1,17 @@
+{
+    "name": "hcipl/pagesmanager",
+    "description": "Laravel Pages Manager.",
+    "authors": [
+        {
+            "name": "hcipl",
+            "email": "zinal.patel@horizoncore.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Hcipl\\Pagesmanager\\": "src/"
+        }
+    }
+}
