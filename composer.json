@@ -1,14 +1,22 @@
 {
     "name": "hcipl/pagesmanager",
     "description": "Laravel Pages Manager.",
+    "type": "laravel-module",
     "authors": [
         {
             "name": "hcipl",
-            "email": "zinal.patel@horizoncore.com"
+            "email": "zinal.patel@horizoncore.com",
+            "homepage": "https://github.com/zinalpatel16/Pagemanager",
+            "role": "Developer"
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "license": "MIT",
+    "require": {
+        "php": ">=7.0",
+        "illuminate/database": "^5.7 || ^6.0"
+    },
+    "keywords":  ["Hcipl", "Pagesmanager", "Laravel"],
     "autoload": {
         "psr-4": {
             "Hcipl\\Pagesmanager\\": "src/"
