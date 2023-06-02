@@ -15,8 +15,6 @@ Live url : (https://packagist.org/packages/hcipl/pagesmanager)
 ###### In order to modify the pagesmanager:
 1. Select the option which depicts "Provider:Hcipl\PagesManager\PagesManagerServiceProvider".
 2. Run below command to publish the assests.
-
 php artisan vendor:publish --tag=public --force
 3. Run below command to link the storage.
-
 php artisan storage:link
